@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; 
+}
+
+header{
+    /* background-color: brown; */
+    width: 100%;
+    height: 150px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.uni-logo{
+    background-image: url("uni-logo.png");
+    background-size: cover;
+    width: 290px;
+    height: 44.5px;
+    margin-left: 40px;
+    margin: 20px;
+}
+
+.search-button{
+    width: 256px;
+    height: 31px;
+}
+
+.search-button input{
+    /* border-radius: 10%; */
+    border: 2px solid black;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgba(226, 210, 210, 0.716);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+main {
+    flex: 1;
+}
+
+.hero-logo{
+    background-image: url("Education-Book.jpg.webp");
+    background-size: cover;
+    width: 468px;
+    height: 366px;
+    margin-top: 40px;
+}
+
+.education-logo{
+    background-image: url("education.svg");
+    width: 98px;
+    height: 26px;
+    margin-left: 500px;
+}
+
+.hero-content{
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 683px;
+    height: 588.5px;
+    font-size: 1rem;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-content a{
+    text-decoration: none;
+    color: rgb(59, 132, 240);
+}
+
+.university-tour{
+    background-color: #f0e328;
+    position: absolute;
+    left: 30px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    width: 283px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.university-tour p{
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.university-video{
+    margin-top: 100px;
+}
+
+.main-content{
+    margin: 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+}
+
+.main-content a{
+    text-decoration: none;
+    color: rgb(59, 132, 240);
+}
+
+footer{
+    background-color: #6c757d;
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+/*departments*/
+.sos-banner{
+    background-image: url("sos-banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 383px;
+}
+
+.set-banner{
+    background-image: url("set-banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 383px;
+}
+
+.slse-banner{
+    background-image: url("slse-banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 383px;
+}
+
+.seda-banner{
+    background-image: url("seda-banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 383px;
+}
+
+.sbl-banner{
+    background-image: url("sbl-banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 383px;
+}
+
+.hero-title{
+    width: 457px;
+    height: 288;
+    margin-top: 50px;
+}
+
+.title-small{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin-left: 40px;
+}
+
+.title-large{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    margin-left: 80px;
+}
+
+.hero-description{
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+.hero-description p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
